@@ -4,6 +4,14 @@ An advanced, AI-powered automation system that uses real-time LLM reasoning to p
 
 
 
+Demo Video : 
+
+
+
+https://github.com/user-attachments/assets/12e51e95-bbf6-4ea5-8cfd-10a80421db8e
+
+
+
 Demo Video After Mcp Integration with claude desktop :
 
 
