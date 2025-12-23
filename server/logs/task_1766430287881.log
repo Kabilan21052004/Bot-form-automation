@@ -1,0 +1,36 @@
+[2025-12-22T19:04:47.885Z] Starting automation for: https://demoqa.com/automation-practice-form
+[2025-12-22T19:04:50.851Z] Navigating to form...
+[2025-12-22T19:05:04.328Z] Extracting form HTML...
+[2025-12-22T19:05:04.340Z] [LLM STEP 1] Extracting field selectors from DOM...
+[2025-12-22T19:05:24.935Z] [LLM STEP 1] Found 15 fields (file inputs filtered out)
+[2025-12-22T19:05:24.956Z] [LLM STEP 2] Mapping user data to 15 fields...
+[2025-12-22T19:05:33.784Z] [LLM] "Name - First Name" = "Kabilan"
+[2025-12-22T19:05:33.794Z] [LLM] "Name - Last Name" = "R"
+[2025-12-22T19:05:33.840Z] [LLM] "Email" = "kabilan@example.com"
+[2025-12-22T19:05:33.846Z] [LLM] "Gender - Male" = "Male"
+[2025-12-22T19:05:33.854Z] [LLM] "Mobile (10 Digits)" = "9876543210"
+[2025-12-22T19:05:33.858Z] [LLM] "Date of Birth" = "12/22/2003"
+[2025-12-22T19:05:33.863Z] [LLM] "Subjects" = "Computer Science, Mathematics, Artificial Intelligence"
+[2025-12-22T19:05:33.870Z] [LLM] "Hobbies - Sports" = "Sports"
+[2025-12-22T19:05:33.873Z] [LLM] "Hobbies - Reading" = "Reading"
+[2025-12-22T19:05:33.876Z] [LLM] "Current Address" = "123, Anna Nagar, Near Main Road"
+[2025-12-22T19:05:33.879Z] [LLM] "State and City - State" = "NCR"
+[2025-12-22T19:05:33.882Z] [LLM] "State and City - City" = "Delhi"
+[2025-12-22T19:05:34.513Z] [FILLED] Text "Name - First Name"
+[2025-12-22T19:05:35.025Z] [FILLED] Text "Name - Last Name"
+[2025-12-22T19:05:35.550Z] [FILLED] Text "Email"
+[2025-12-22T19:05:35.928Z] [FILLED] Radio "Gender - Male" = "Male"
+[2025-12-22T19:05:36.302Z] [SKIP] No value for "Gender - Female"
+[2025-12-22T19:05:36.353Z] [SKIP] No value for "Gender - Other"
+[2025-12-22T19:05:36.918Z] [FILLED] Text "Mobile (10 Digits)"
+[2025-12-22T19:05:37.834Z] [FILLED] Date "Date of Birth" = "12/22/2003"
+[2025-12-22T19:05:38.162Z] [ERROR] Failed to fill "Subjects": el.options is not iterable
+[2025-12-22T19:05:38.478Z] [FILLED] Checkbox "Hobbies - Sports" = true
+[2025-12-22T19:05:39.098Z] [FILLED] Checkbox "Hobbies - Reading" = true
+[2025-12-22T19:05:39.400Z] [SKIP] No value for "Hobbies - Music"
+[2025-12-22T19:05:39.930Z] [FILLED] Textarea "Current Address"
+[2025-12-22T19:05:40.276Z] [ERROR] Failed to fill "State and City - State": el.options is not iterable
+[2025-12-22T19:05:40.830Z] [ERROR] Failed to fill "State and City - City": el.options is not iterable
+[2025-12-22T19:05:40.859Z] Submitting form...
+[2025-12-22T19:05:42.901Z] Form submitted successfully
+[2025-12-22T19:05:48.432Z] Task completed!

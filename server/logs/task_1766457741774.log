@@ -1,0 +1,47 @@
+[2025-12-23T02:42:21.774Z] Starting automation for: https://fs1.formsite.com/res/showFormEmbed?EParam=B6fiTn-RcO5Oi8C4iSTjsq4WXqv4L_Qk&748593425&EmbedId=748593425
+[2025-12-23T02:42:23.225Z] Navigating to form...
+[2025-12-23T02:42:28.214Z] Extracting form HTML...
+[2025-12-23T02:42:28.218Z] [LLM STEP 1] Extracting field selectors from DOM...
+[2025-12-23T02:43:08.911Z] [LLM STEP 1] Found 23 fields (file inputs filtered out)
+[2025-12-23T02:43:08.916Z] [LLM STEP 2] Mapping user data to 23 fields...
+[2025-12-23T02:43:24.948Z] [LLM] "subject_line" = "Community Tree Plantation Drive"
+[2025-12-23T02:43:24.948Z] [LLM] "Proposal title" = "Community Tree Plantation Drive"
+[2025-12-23T02:43:24.949Z] [LLM] "Today's date" = "12/22/2025"
+[2025-12-23T02:43:24.957Z] [LLM] "Location" = "Anna Nagar, Chennai"
+[2025-12-23T02:43:24.957Z] [LLM] "Proposed date" = "01/15/2026"
+[2025-12-23T02:43:24.958Z] [LLM] "Description" = "This proposal aims to organize a community-driven tree plantation program to increase green cover, improve air quality, and promote environmental awareness among local residents."
+[2025-12-23T02:43:24.958Z] [LLM] "First Name" = "Kabilan"
+[2025-12-23T02:43:24.959Z] [LLM] "Last Name" = "R"
+[2025-12-23T02:43:24.959Z] [LLM] "Street Address" = "123, Anna Nagar West"
+[2025-12-23T02:43:24.960Z] [LLM] "Address Line 2" = "Near Metro Station"
+[2025-12-23T02:43:24.960Z] [LLM] "City" = "Chennai"
+[2025-12-23T02:43:24.961Z] [LLM] "State" = "Alaska"
+[2025-12-23T02:43:24.961Z] [LLM] "Zip Code" = "600040"
+[2025-12-23T02:43:24.962Z] [LLM] "Phone Number" = "9876543210"
+[2025-12-23T02:43:24.962Z] [LLM] "Email Address" = "kabilan@example.com"
+[2025-12-23T02:43:24.963Z] [SKIP] No value for "GenId"
+[2025-12-23T02:43:24.963Z] [SKIP] No value for "LocId"
+[2025-12-23T02:43:24.964Z] [SKIP] No value for "EParam"
+[2025-12-23T02:43:24.964Z] [SKIP] No value for "ElapsedTime"
+[2025-12-23T02:43:24.965Z] [SKIP] No value for "Referrer"
+[2025-12-23T02:43:25.493Z] [FILLED] Text "subject_line"
+[2025-12-23T02:43:25.497Z] [ERROR] Element not found: "Proposal title"
+[2025-12-23T02:43:25.501Z] [ERROR] Element not found: "Today's date"
+[2025-12-23T02:43:25.505Z] [ERROR] Element not found: "Location"
+[2025-12-23T02:43:25.509Z] [ERROR] Element not found: "Proposed date"
+[2025-12-23T02:43:25.513Z] [ERROR] Element not found: "Description"
+[2025-12-23T02:43:25.516Z] [ERROR] Element not found: "First Name"
+[2025-12-23T02:43:25.518Z] [ERROR] Element not found: "Last Name"
+[2025-12-23T02:43:25.522Z] [ERROR] Element not found: "Street Address"
+[2025-12-23T02:43:25.525Z] [ERROR] Element not found: "Address Line 2"
+[2025-12-23T02:43:25.527Z] [ERROR] Element not found: "City"
+[2025-12-23T02:43:25.529Z] [ERROR] Element not found: "State"
+[2025-12-23T02:43:25.532Z] [ERROR] Element not found: "Zip Code"
+[2025-12-23T02:43:25.534Z] [ERROR] Element not found: "Phone Number"
+[2025-12-23T02:43:25.536Z] [ERROR] Element not found: "Email Address"
+[2025-12-23T02:43:25.536Z] [SKIP] No value for "EmbeddedForm"
+[2025-12-23T02:43:25.537Z] [SKIP] No value for "EmbedId"
+[2025-12-23T02:43:25.538Z] [SKIP] No value for "Submit"
+[2025-12-23T02:43:25.538Z] Submitting form...
+[2025-12-23T02:43:27.559Z] Form submitted successfully
+[2025-12-23T02:43:29.474Z] Task completed!

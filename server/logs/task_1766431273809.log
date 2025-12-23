@@ -1,0 +1,32 @@
+[2025-12-22T19:21:13.827Z] Starting automation for: https://docs.google.com/forms/d/e/1FAIpQLSfoAyr5s-BgsjO6o4Fr90_4PLL07jLpNzRoQ9hvabZypOq2dA/viewform?usp=dialog
+[2025-12-22T19:21:20.038Z] Navigating to form...
+[2025-12-22T19:21:25.688Z] Extracting form HTML...
+[2025-12-22T19:21:25.705Z] [LLM STEP 1] Extracting field selectors from DOM...
+[2025-12-22T19:21:59.188Z] [LLM STEP 1] Found 14 fields (file inputs filtered out)
+[2025-12-22T19:21:59.245Z] [LLM STEP 2] Mapping user data to 14 fields...
+[2025-12-22T19:22:11.845Z] [LLM] "Name" = "Kabilan R"
+[2025-12-22T19:22:11.853Z] [LLM] "age" = "21"
+[2025-12-22T19:22:11.854Z] [LLM] "Date of birth" = "12/22/2003"
+[2025-12-22T19:22:11.856Z] [LLM] "Father's name" = "Ravi Kumar"
+[2025-12-22T19:22:11.864Z] [LLM] "Mother's Name" = "Lakshmi Ravi"
+[2025-12-22T19:22:11.866Z] [LLM] "Gender - Male" = "Male"
+[2025-12-22T19:22:11.868Z] [LLM] "City" = "Chennai"
+[2025-12-22T19:22:11.870Z] [LLM] "Hobbies - Cricket" = "Cricket"
+[2025-12-22T19:22:11.871Z] [LLM] "Hobbies - Reading books" = "Reading books"
+[2025-12-22T19:22:12.453Z] [FILLED] Text "Name"
+[2025-12-22T19:22:13.047Z] [FILLED] Text "age"
+[2025-12-22T19:22:13.911Z] [FILLED] Date "Date of birth" = "12/22/2003"
+[2025-12-22T19:22:14.450Z] [FILLED] Text "Father's name"
+[2025-12-22T19:22:15.012Z] [FILLED] Text "Mother's Name"
+[2025-12-22T19:22:15.343Z] [FILLED] Radio "Gender - Male" = "Male"
+[2025-12-22T19:22:15.652Z] [SKIP] No value for "Gender - Female"
+[2025-12-22T19:22:15.659Z] [SKIP] No value for "Gender - Other"
+[2025-12-22T19:22:15.661Z] [SKIP] No value for "Gender - Other response"
+[2025-12-22T19:22:16.813Z] [FILLED] Dropdown "City" = "chennai"
+[2025-12-22T19:22:17.462Z] [FILLED] Checkbox "Hobbies - Cricket" = true
+[2025-12-22T19:22:17.776Z] [SKIP] No value for "Hobbies - Football"
+[2025-12-22T19:22:17.782Z] [SKIP] No value for "Hobbies - Art"
+[2025-12-22T19:22:18.116Z] [FILLED] Checkbox "Hobbies - Reading books" = true
+[2025-12-22T19:22:18.425Z] Submitting form...
+[2025-12-22T19:22:20.461Z] Form submitted successfully
+[2025-12-22T19:22:23.823Z] Task completed!

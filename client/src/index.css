@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0f172a;
+    /* bg-background */
+    color: white;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.glass {
+  background-color: rgba(30, 41, 59, 0.5);
+  /* bg-surface/50 */
+  backdrop-filter: blur(12px);
+  /* backdrop-blur-md */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-white/10 */
+}
+
+/* Re-implementing custom utility classes manually or via @apply if widely supported in v4 with plugin, 
+   but standard CSS is safer with v4's new engine unless configured efficiently. 
+   Actually v4 supports @apply but requires the utility to be known. 
+   Since I am not sure if my theme config in tailwind.config.js is picked up by the vite plugin automatically 
+   (it should be if legacy config is detected or I can move it to CSS variables).
+   
+   To be safe and "Top Tier", I will use CSS variables for theme colors and standard Tailwind classes in JSX.
+   But for this file, I'll stick to @apply if it works or standard CSS.
+   The error in the previous step was about postcss plugin.
+   
+   Refactoring to standard CSS + Tailwind imports is better for v4.
+*/
+
+:root {
+  --color-primary: #6366f1;
+  --color-secondary: #a855f7;
+  --color-background: #0f172a;
+  --color-surface: #1e293b;
+}
+
+.input-field {
+  width: 100%;
+  background-color: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  color: white;
+  transition: all 0.3s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: rgba(99, 102, 241, 0.5);
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

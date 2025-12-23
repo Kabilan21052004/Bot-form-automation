@@ -1,0 +1,43 @@
+# Implementation Plan: Altrosyn Automation (Final)
+
+This document outlines the technical architecture and implementation strategy for the Altrosyn Automation project.
+
+## 1. Objectives
+- Automated form filling using Semantic AI.
+- Centralized queue management.
+- Real-time UI visibility.
+- Robust handling of dynamic and custom web elements.
+
+## 2. Technical Stack
+- **Backend**: Node.js, Express, Socket.io, Puppeteer.
+- **Frontend**: React, Vite, Tailwind CSS, Lucide icons.
+- **AI**: Google Generative AI (Gemini Flash).
+
+## 3. Implementation Phases
+
+### Phase 1: Orchestration Layer
+- [x] Create [server.js](file:///e:/final%20kabilan%20altrosyn/server/server.js) to handle API requests and websocket connections.
+- [x] Implement [queueManager.js](file:///e:/final%20kabilan%20altrosyn/server/queueManager.js) for thread-safe task processing.
+- [x] Set up logging system for audit trails and debugging.
+
+### Phase 2: AI Automation Engine
+- [x] **LLM Layer 1 (Parsing)**: Implement DOM extraction prompt in [llmService.js](file:///e:/final%20kabilan%20altrosyn/server/llmService.js).
+- [x] **LLM Layer 2 (Mapping)**: Implement data-to-field mapping logic.
+- [x] **Execution Helper**: Build Puppeteer interaction logic in [automationService.js](file:///e:/final%20kabilan%20altrosyn/server/automationService.js) with specific focus on:
+    - Custom ARIA-based radio selection.
+    - Listbox dropdown handling.
+    - Automated form submission detection.
+
+### Phase 3: Dashboard & Monitoring
+- [x] Develop React dashboard with real-time queue updates.
+- [x] Implement log downloading for post-task analysis.
+- [x] Add status-based UI indicators (Pending, Processing, Waiting Input, Completed, Failed).
+
+## 4. Verification Strategy
+- **Unit Testing**: Isolated Gemini connectivity check via [test-gemini.js](file:///e:/final%20kabilan%20altrosyn/server/test-gemini.js).
+- **Integration Testing**: End-to-end flow verification via [verify_submission.js](file:///e:/final%20kabilan%20altrosyn/server/verify_submission.js).
+- **UI Testing**: Manual submission and real-time update validation in the browser.
+
+## 5. Deployment Notes
+- Ensure `CHROME_PATH` is correctly set for the target environment.
+- Gemini API key must have sufficient quota for heavy DOM extraction tasks.

@@ -1,0 +1,35 @@
+[2025-12-23T03:12:45.742Z] Starting automation for: https://fs1.formsite.com/res/showFormEmbed?EParam=B6fiTn-RcO5Oi8C4iSTjsq4WXqv4L_Qk&748593425&EmbedId=748593425
+[2025-12-23T03:12:47.691Z] Navigating to form...
+[2025-12-23T03:12:53.489Z] Extracting form HTML...
+[2025-12-23T03:12:53.495Z] [LLM STEP 1] Extracting field selectors from DOM...
+[2025-12-23T03:13:27.191Z] [LLM STEP 1] Found 13 fields (file inputs filtered out)
+[2025-12-23T03:13:27.196Z] [LLM STEP 2] Mapping user data to 13 fields...
+[2025-12-23T03:13:36.480Z] [LLM] "Proposal title" = "Community Tree Plantation Drive"
+[2025-12-23T03:13:36.481Z] [LLM] "Location" = "Anna Nagar, Chennai"
+[2025-12-23T03:13:36.482Z] [LLM] "Proposed date" = "01/15/2026"
+[2025-12-23T03:13:36.483Z] [LLM] "Description" = "This proposal aims to organize a community-driven tree plantation program to increase green cover, improve air quality, and promote environmental awareness among local residents."
+[2025-12-23T03:13:36.484Z] [LLM] "First Name" = "Kabilan"
+[2025-12-23T03:13:36.484Z] [LLM] "Last Name" = "R"
+[2025-12-23T03:13:36.485Z] [LLM] "Street Address" = "123, Anna Nagar West"
+[2025-12-23T03:13:36.485Z] [LLM] "Address Line 2" = "Near Metro Station"
+[2025-12-23T03:13:36.486Z] [LLM] "City" = "Chennai"
+[2025-12-23T03:13:36.487Z] [LLM] "State" = "Alaska"
+[2025-12-23T03:13:36.487Z] [LLM] "Zip Code" = "600040"
+[2025-12-23T03:13:36.488Z] [LLM] "Phone Number" = "9876543210"
+[2025-12-23T03:13:36.488Z] [LLM] "Email Address" = "kabilan@example.com"
+[2025-12-23T03:13:37.015Z] [FILLED] Text "Proposal title"
+[2025-12-23T03:13:37.531Z] [FILLED] Text "Location"
+[2025-12-23T03:13:38.364Z] [FILLED] Date "Proposed date" = "01/15/2026"
+[2025-12-23T03:13:38.883Z] [FILLED] Textarea "Description"
+[2025-12-23T03:13:39.415Z] [FILLED] Text "First Name"
+[2025-12-23T03:13:39.933Z] [FILLED] Text "Last Name"
+[2025-12-23T03:13:40.465Z] [FILLED] Text "Street Address"
+[2025-12-23T03:13:40.999Z] [FILLED] Text "Address Line 2"
+[2025-12-23T03:13:41.524Z] [FILLED] Text "City"
+[2025-12-23T03:13:41.841Z] [FILLED] Dropdown "State" = "Alaska"
+[2025-12-23T03:13:42.683Z] [FILLED] Text "Zip Code"
+[2025-12-23T03:13:43.200Z] [FILLED] Text "Phone Number"
+[2025-12-23T03:13:43.715Z] [FILLED] Text "Email Address"
+[2025-12-23T03:13:43.716Z] Submitting form...
+[2025-12-23T03:13:45.776Z] Form submitted successfully
+[2025-12-23T03:13:47.125Z] Task completed!

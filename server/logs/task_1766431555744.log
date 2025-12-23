@@ -1,0 +1,30 @@
+[2025-12-22T19:25:55.751Z] Starting automation for: https://docs.google.com/forms/d/e/1FAIpQLSfoAyr5s-BgsjO6o4Fr90_4PLL07jLpNzRoQ9hvabZypOq2dA/viewform?usp=dialog
+[2025-12-22T19:25:59.355Z] Navigating to form...
+[2025-12-22T19:26:06.145Z] Extracting form HTML...
+[2025-12-22T19:26:06.159Z] [LLM STEP 1] Extracting field selectors from DOM...
+[2025-12-22T19:26:38.666Z] [LLM STEP 1] Found 13 fields (file inputs filtered out)
+[2025-12-22T19:26:38.686Z] [LLM STEP 2] Mapping user data to 13 fields...
+[2025-12-22T19:26:44.882Z] [LLM] "Name" = "Kabilan R"
+[2025-12-22T19:26:44.890Z] [LLM] "age" = "21"
+[2025-12-22T19:26:44.891Z] [LLM] "Father's name" = "Ravi Kumar"
+[2025-12-22T19:26:44.892Z] [LLM] "Mother's Name" = "Lakshmi Ravi"
+[2025-12-22T19:26:44.894Z] [LLM] "Gender - Male" = "Male"
+[2025-12-22T19:26:44.896Z] [LLM] "City" = "Chennai"
+[2025-12-22T19:26:44.897Z] [LLM] "Hobbies - Cricket" = "Cricket"
+[2025-12-22T19:26:44.898Z] [LLM] "Hobbies - Reading books" = "Reading books"
+[2025-12-22T19:26:45.455Z] [FILLED] Text "Name"
+[2025-12-22T19:26:46.029Z] [FILLED] Text "age"
+[2025-12-22T19:26:46.589Z] [FILLED] Text "Father's name"
+[2025-12-22T19:26:47.133Z] [FILLED] Text "Mother's Name"
+[2025-12-22T19:26:47.482Z] [FILLED] Radio "Gender - Male" = "Male"
+[2025-12-22T19:26:47.800Z] [SKIP] No value for "Gender - Female"
+[2025-12-22T19:26:47.807Z] [SKIP] No value for "Gender - Other"
+[2025-12-22T19:26:47.812Z] [SKIP] No value for "Gender - Other response"
+[2025-12-22T19:26:48.345Z] [FILLED] Text "City"
+[2025-12-22T19:26:48.666Z] [FILLED] Checkbox "Hobbies - Cricket" = true
+[2025-12-22T19:26:48.983Z] [SKIP] No value for "Hobbies - Football"
+[2025-12-22T19:26:48.992Z] [SKIP] No value for "Hobbies - Art"
+[2025-12-22T19:26:49.315Z] [FILLED] Checkbox "Hobbies - Reading books" = true
+[2025-12-22T19:26:49.620Z] Submitting form...
+[2025-12-22T19:26:51.657Z] Form submitted successfully
+[2025-12-22T19:26:54.668Z] Task completed!

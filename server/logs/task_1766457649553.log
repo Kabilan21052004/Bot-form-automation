@@ -1,0 +1,47 @@
+[2025-12-23T02:40:49.554Z] Starting automation for: https://fs1.formsite.com/res/showFormEmbed?EParam=B6fiTn-RcO5Oi8C4iSTjsq4WXqv4L_Qk&748593425&EmbedId=748593425
+[2025-12-23T02:40:51.029Z] Navigating to form...
+[2025-12-23T02:40:56.832Z] Extracting form HTML...
+[2025-12-23T02:40:56.836Z] [LLM STEP 1] Extracting field selectors from DOM...
+[2025-12-23T02:41:26.703Z] [LLM STEP 1] Found 23 fields (file inputs filtered out)
+[2025-12-23T02:41:26.709Z] [LLM STEP 2] Mapping user data to 23 fields...
+[2025-12-23T02:41:39.824Z] [LLM] "subject_line" = "Community Tree Plantation Drive"
+[2025-12-23T02:41:39.826Z] [LLM] "Proposal title" = "Community Tree Plantation Drive"
+[2025-12-23T02:41:39.827Z] [LLM] "Today's date" = "12/22/2025"
+[2025-12-23T02:41:39.828Z] [LLM] "Location" = "Anna Nagar, Chennai"
+[2025-12-23T02:41:39.829Z] [LLM] "Proposed date" = "01/15/2026"
+[2025-12-23T02:41:39.829Z] [LLM] "Description" = "This proposal aims to organize a community-driven tree plantation program to increase green cover, improve air quality, and promote environmental awareness among local residents."
+[2025-12-23T02:41:39.830Z] [LLM] "First Name" = "Kabilan"
+[2025-12-23T02:41:39.830Z] [LLM] "Last Name" = "R"
+[2025-12-23T02:41:39.831Z] [LLM] "Street Address" = "123, Anna Nagar West"
+[2025-12-23T02:41:39.831Z] [LLM] "Address Line 2" = "Near Metro Station"
+[2025-12-23T02:41:39.831Z] [LLM] "City" = "Chennai"
+[2025-12-23T02:41:39.832Z] [LLM] "State" = "Alaska"
+[2025-12-23T02:41:39.832Z] [LLM] "Zip Code" = "600040"
+[2025-12-23T02:41:39.833Z] [LLM] "Phone Number" = "9876543210"
+[2025-12-23T02:41:39.833Z] [LLM] "Email Address" = "kabilan@example.com"
+[2025-12-23T02:41:39.833Z] [SKIP] No value for "GenId"
+[2025-12-23T02:41:39.834Z] [SKIP] No value for "LocId"
+[2025-12-23T02:41:39.834Z] [SKIP] No value for "EParam"
+[2025-12-23T02:41:39.835Z] [SKIP] No value for "ElapsedTime"
+[2025-12-23T02:41:39.836Z] [SKIP] No value for "Referrer"
+[2025-12-23T02:41:40.352Z] [FILLED] Text "subject_line"
+[2025-12-23T02:41:40.890Z] [FILLED] Text "Proposal title"
+[2025-12-23T02:41:41.728Z] [FILLED] Date "Today's date" = "12/22/2025"
+[2025-12-23T02:41:42.264Z] [FILLED] Text "Location"
+[2025-12-23T02:41:43.121Z] [FILLED] Date "Proposed date" = "01/15/2026"
+[2025-12-23T02:41:43.661Z] [FILLED] Textarea "Description"
+[2025-12-23T02:41:44.192Z] [FILLED] Text "First Name"
+[2025-12-23T02:41:44.740Z] [FILLED] Text "Last Name"
+[2025-12-23T02:41:45.277Z] [FILLED] Text "Street Address"
+[2025-12-23T02:41:45.808Z] [FILLED] Text "Address Line 2"
+[2025-12-23T02:41:46.343Z] [FILLED] Text "City"
+[2025-12-23T02:41:46.672Z] [FILLED] Dropdown "State" = "Alaska"
+[2025-12-23T02:41:47.509Z] [FILLED] Text "Zip Code"
+[2025-12-23T02:41:48.042Z] [FILLED] Text "Phone Number"
+[2025-12-23T02:41:48.590Z] [FILLED] Text "Email Address"
+[2025-12-23T02:41:48.592Z] [SKIP] No value for "EmbeddedForm"
+[2025-12-23T02:41:48.593Z] [SKIP] No value for "EmbedId"
+[2025-12-23T02:41:48.593Z] [SKIP] No value for "Submit"
+[2025-12-23T02:41:48.594Z] Submitting form...
+[2025-12-23T02:41:50.641Z] Form submitted successfully
+[2025-12-23T02:41:51.661Z] Task completed!
